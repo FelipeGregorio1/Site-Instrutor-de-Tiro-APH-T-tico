@@ -1,0 +1,135 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.inicio {
+    background-image: url(./Imagens/hjome.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.elementos {
+    padding: 70px;
+    line-height: 40px;
+}
+
+.elementos img {
+    width: 200px;
+    margin-left: 100px;
+}
+
+.elementos h1 {
+    color: #fa9703;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.elementos p {
+    color: white;
+}
+
+.botao {
+    padding: 15px 35px;
+    background-color: #fa9703;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+}
+
+a:hover {
+    color: black;
+}
+
+.posbotao {
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.beneficios {
+    background-image: url(./Imagens/bene2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.beneficios h3 {
+    color: #fa9703;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 4rem;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards div {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 120px 50px;
+    padding: 0px 17px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    text-align: center;
+}
+
+.cards img {
+    width: 150px;
+}
+
+.cards h4 {
+    color: white;
+}
+
+.cards p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.aphtatico {
+    background-image: url(./Imagens/aph\ tatico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.aphtatico h5 {
+    color: #fa9703;
+    font-size: 4rem;
+    padding: 35px;
+}
+
+.aphtatico  div{
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1px 300px;
+}
+
+.aphtatico div p {
+    padding-top: 60px;
+}
+
+.aphtatico div img {
+    width: 150px;
+}
+
+#torniquete p {
+    padding-left: 220px;
+} */

@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HOME */
+.home {
+  background-image: url(./Imagens/hjome.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 115vh;
+}
+
+.elementos {
+  margin-left: 175px;
+  gap: 35px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.elementos h1 {
+  color: #fa9703;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  flex-direction: column;
+  font-size: 1.5rem;
+  line-height: 10px;
+}
+
+.botao {
+  list-style: none;
+  padding: 15px 35px;
+  background-color: #fa9703;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+/* SOBRE MIM  */
+.sobremim {
+  background-image: url(./Imagens/to.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  color: #fff;
+}
+
+.sobremim span {
+  color: #fa9703;
+}
+
+.txt-sobremim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  max-width: 900px;
+  margin-left: 15px;
+}
+
+.textos-do-sobremim {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 20px;
+  align-items: flex-start;
+  font-size: 30px;
+}
+
+.textos-do-sobremim h2,
+.textos-do-sobremim h3 {
+  color: #f4a000;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.textos-do-sobremim:first-child {
+  margin-bottom: 10px;
+}
+
+.textos-do-sobremim:first-child h2 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.textos-do-sobremim p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: bold;
+}
+
+.ajuste-txt {
+  padding: 10px;
+}
+
+/* BENEFICIOS */
+
+.beneficios {
+  background-image: url(./Imagens/bene2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  color: #fff;
+}
+
+.beneficios h2 {
+  color: #fa9703;
+  padding-top: 75px;
+  font-size: 4rem;,
+}
+
+.cards {
+  display: flex;
+}
+
+.cards div {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 200px 50px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  font-size: 2rem;
+  border: 2px solid #fff;
+  text-align: center;
+}
+
+.cards img {
+  width: 150px;
+}
+
+.cards h3 {
+  font-size: 1.8rem;
+}
+
+.cards p {
+  font-size: 1.5rem;
+}
+
+/* PRINCIPAIS CURSOS */
+.cursos {
+  background-image: url(./Imagens/principais2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 115vh;
+  color: #fff;
+}
+
+.poscardcurso h2 {
+  display: flex;
+  justify-content: center;
+  color: #fa9703;
+  font-size: 4rem;
+  margin: 50px 0;
+}
+
+.poscardcurso {
+  margin-left: 900px;
+  margin-right: 100px;
+}
+
+.cardcurso {
+  border: 2px solid #fa9307;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: 60px;
+  padding: 20px;
+}
+
+.cardcurso h3 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.cardcurso p {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-right: 100px;
+  margin-bottom: 0;
+}
+
+.cardcurso span {
+  font-weight: bold;
+  color: #fa9307;
+  font-size: 1.8rem;
+  margin-right: 10px;
+}
+
+/* APH TÁTICO */
+.aphtatico {
+    background-image: url(./Imagens/aph\ tatico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.aphtatico h2 {
+    color: #fa9703;
+    font-size: 4rem;
+    padding: 40px;
+}
+
+.aphtatico div {
+    display: flex;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1px 300px;
+}
+
+.aphtatico div p {
+    padding-top: 60px;
+}
+
+.aphtatico div img {
+    width: 150px;
+}
+
+#torniquete p {
+    padding-left: 220px;
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    height: 500px;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .elementos {
+    gap: 18px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center !important;
+  }
+
+  .logo {
+    max-width: 120px;
+  }
+
+  .elementos h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    width: 100%;
+    word-break: break-word;
+  }
+
+  .texto {
+    font-size: 1rem;
+    gap: 8px;
+    width: 100%;
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .texto p {
+    width: 100%;
+    margin: 0;
+  }
+
+  .botao {
+    padding: 12px 25px;
+    font-size: 0.9rem;
+    border-radius: 30px;
+    width: auto;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  /* Sobre mim */
+
+  
+}
