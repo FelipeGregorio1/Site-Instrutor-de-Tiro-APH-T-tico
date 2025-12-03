@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CELIO</title>
+    <title>Intrutor APH Tático</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./Imagens/Logo.png">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,6 +17,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <body>
     <!-- NAVBAR -->
@@ -33,18 +35,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="navbar-nav collapse navbar-collapse" id="navbarNavAltMarkup">
-          <li><a class="nav-link" href="#">Início</a></li>
-          <li><a class="nav-link" href="#">Sobre mim</a></li>
-          <li><a class="nav-link" href="#">Beneficios</a></li>
-          <li><a class="nav-link" href="#">Cursos</a></li>
-          <li><a class="nav-link" href="#">APH Tático</a></li>
-          <li><a class="nav-link" href="#">Contato</a></li>
+          <li><a class="nav-link" href="#home">Início</a></li>
+          <li><a class="nav-link" href="#sobremim">Sobre mim</a></li>
+          <li><a class="nav-link" href="#beneficios">Beneficios</a></li>
+          <li><a class="nav-link" href="#principaiscursos">Cursos</a></li>
+          <li><a class="nav-link" href="#aphtatico">APH Tático</a></li>
+          <li><a class="nav-link" href="#footer">Contato</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!-- HOME -->
-      <section class="home">
+      <section class="home" id="home">
         <section class="elementos">
           <img src="./Imagens/Logo.png" alt="logo" class="logo" />
           <div class="texto">
@@ -56,11 +58,11 @@
         </section>
       </section>
       <!-- SOBRE MIM -->
-      <section class="sobremim">
+      <section class="sobremim" id="sobremim">
         <section class="txt-sobremim">
           <div class="textos-do-sobremim">
-            <h2><span>Sobre</span> Mim</h2>
-            <h2>Celio Paes</h2>
+            <h2><span>Sobre Mim</span></h2>
+            <h2>CELIO PAES</h2>
           </div>
           <div class="textos-do-sobremim">
             <h3>Experiência Profissional</h3>
@@ -98,7 +100,7 @@
         </section>
       </section>
       <!-- BENEFICIOS -->
-      <section class="beneficios">
+      <section class="beneficios" id="beneficios">
         <h2>BENEFÍCIOS DO CURSO</h2>
         <div class="cards">
           <div>
@@ -122,7 +124,7 @@
         </div>
       </section>
       <!-- PRINCIPAIS CURSOS -->
-      <section class="cursos">
+      <section class="cursos" id="principaiscursos">
           <div class="poscardcurso">
             <h2>PRINCIPAIS CURSOS</h2>
           <div class="cardcurso">
@@ -163,24 +165,24 @@
         </div>
       </section>
       <!-- APH TÁTICO -->
-      <section class="aphtatico">
-            <h2>APH TÁTICO</h2>
-            <div id="hemorragia">
-                <img src="./Imagens/Icone Hemorragia.png" alt="Icone Hemorragia">
-                <p>Garante o domínio das técnicas de controle de hemorragia, a principal causa de morte evitável em combate.</p>
-            </div>
-            <div id="torniquete">
-                <p>É a única doutrina que ensina a salvar sua vida e a de seus companheiros em ambientes de alto risco.</p>
-                <img src="./Imagens/Icone Torniquete.png" alt="Icone Torniquete">
-            </div>
-            <div id="kitmedico">
-                <img src=".//Imagens/Icone Kit Medico.png" alt="Icone Kit Medico">
-                <p>Capacita você a ser o elo crucial de sobrevivência, agindo com precisão quando o socorro civil não pode entrar.</p>
-            </div>
-        </section>
+      <section class="aphtatico" id="aphtatico">
+        <h2>APH TÁTICO</h2>
+        <div id="hemorragia">
+            <img src="./Imagens/Icone Hemorragia.png" alt="Icone Hemorragia">
+            <p>Garante o domínio das técnicas de controle de hemorragia, a principal causa de morte evitável em combate.</p>
+        </div>
+        <div id="torniquete">
+            <p>É a única doutrina que ensina a salvar sua vida e a de seus companheiros em ambientes de alto risco.</p>
+            <img src="./Imagens/Icone Torniquete.png" alt="Icone Torniquete">
+        </div>
+        <div id="kitmedico">
+            <img src=".//Imagens/Icone Kit Medico.png" alt="Icone Kit Medico">
+            <p>Capacita você a ser o elo crucial de sobrevivência, agindo com precisão quando o socorro civil não pode entrar.</p>
+        </div>
+      </section>
     </main>
     <footer>
-        <section class="divfooter">
+        <section class="divfooter" id="footer">
           <section class="logofooter">
               <img src="./Imagens/Logo.png" alt="Logo">
           </section>
