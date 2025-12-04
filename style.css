@@ -1,5 +1,7 @@
+/* FONTE */
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* GERAL */
 * {
   margin: 0;
   padding: 0;
@@ -11,35 +13,30 @@
 .navbar {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
 /* HOME */
 .home {
   background-image: url(./Imagens/hjome.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding: 10px 0;
   display: flex;
-  align-items: center;
-  position: relative;
-  width: 100%;
   height: 115vh;
 }
 
 .elementos {
   margin-left: 175px;
-  gap: 35px;
+  gap: 30px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
 }
 
 .elementos h1 {
   color: #fa9703;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 80px;
 }
 
 .texto {
@@ -48,22 +45,23 @@
   align-items: flex-start;
   gap: 15px;
   flex-direction: column;
-  font-size: 1.5rem;
-  line-height: 10px;
+  font-size: 40px;
+  line-height: 25px;
 }
 
 .botao {
   list-style: none;
-  padding: 15px 35px;
+  padding: 15px 45px;
   background-color: #fa9703;
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
   border-radius: 40px;
+  font-size: 35px;
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 250px;
 }
 
 /* SOBRE MIM  */
@@ -71,14 +69,9 @@
   background-image: url(./Imagens/to.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  padding: 10px 0;
   display: flex;
   align-items: center;
-  position: relative;
-  width: 100%;
   height: 115vh;
-  color: #fff;
 }
 
 .sobremim span {
@@ -91,47 +84,34 @@
   align-items: center;
   gap: 35px;
   max-width: 900px;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 .textos-do-sobremim {
   display: grid;
   grid-template-columns: 200px 1fr;
-  gap: 20px;
   align-items: center;
   font-size: 30px; 
   margin-left: 25px;
+  color: white;
 }
 
 .textos-do-sobremim h3 {
-  color: #f4a000;
-  font-size: 25px;
+  color: #fa9703;
+  font-size: 30px;
   font-weight: bold;
-  margin: 0;
-  line-height: 1.2;
+  line-height: 40px;
 }
 
 .textos-do-sobremim h2 {
-  font-size: 2.3rem;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .textos-do-sobremim p {
-  font-size: 1.5rem;
-  line-height: 1.6;
+  font-size: 25px;
+  line-height: 40px;
   font-weight: bold;
-}
-
-.textos-do-sobremim.titulo {
-  grid-template-columns: none; 
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  align-items: center; 
-}
-
-.ajuste-txt {
-  padding: 10px;
 }
 
 /* BENEFICIOS */
@@ -140,21 +120,17 @@
   background-image: url(./Imagens/bene2.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   padding: 10px 0;
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  width: 100%;
   height: 115vh;
-  color: #fff;
 }
 
 .beneficios h2 {
   color: #fa9703;
   padding-top: 75px;
-  font-size: 4rem;
+  font-size: 80px;
 }
 
 .cards {
@@ -164,17 +140,18 @@
 .cards div {
   width: 400px;
   height: 400px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 120px 30px;
-  padding: 0px 20px;
+  padding: 0px 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   border-radius: 20px;
-  font-size: 2rem;
   border: 2px solid #fff;
   text-align: center;
+  color: white;
+  font-size: 25px;
 }
 
 .cards img {
@@ -182,11 +159,7 @@
 }
 
 .cards h3 {
-  font-size: 1.8rem;
-}
-
-.cards p {
-  font-size: 1.5rem;
+  font-size: 30px;
 }
 
 /* PRINCIPAIS CURSOS */
@@ -194,36 +167,28 @@
   background-image: url(./Imagens/principais2.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
   padding: 10px 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
   height: 115vh;
-  color: #fff;
 }
 
 .poscardcurso h2 {
   display: flex;
   justify-content: center;
   color: #fa9703;
-  font-size: 4rem;
+  font-size: 80px;
   margin: 50px 0;
 }
 
 .poscardcurso {
   width: 55%;
   margin-left: auto;
-  margin-right: 50px; 
+  margin-right: 50px;
 }
 
 .cardcurso {
   border: 2px solid #fa9307;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   border-radius: 20px;
   margin-bottom: 60px;
   padding: 20px;
@@ -231,47 +196,47 @@
 
 .cardcurso h3 {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .cardcurso p {
   color: #ffffff;
-  font-size: 1.5rem;
-  padding-right: 100px;
+  font-size: 25px;
   margin-bottom: 0;
 }
 
 .cardcurso span {
+  padding-top: 10px;
   font-weight: bold;
   color: #fa9307;
-  font-size: 1.8rem;
+  font-size: 35px;
   margin-right: 10px;
 }
 
 /* APH TÁTICO */
 .aphtatico {
     background-image: url(./Imagens/aph\ tatico.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 115vh;
 }
 
 .aphtatico h2 {
     color: #fa9703;
-    font-size: 4rem;
-    padding: 40px;
+    font-size: 80px;
+    padding-top: 80px;
+    margin-left: 30px;
 }
 
 .aphtatico div {
     display: flex;
     font-size: 30px;
     color: white;
-    padding: 1px 300px;
+    padding: 10px 300px;
 }
 
 .aphtatico div p {
-    padding-top: 60px;
+    padding-top: 45px;
 }
 
 .aphtatico div img {
@@ -279,138 +244,128 @@
 }
 
 #torniquete p {
-    padding-left: 220px;
+    padding-left: 200px;
 }
 
 /* FOOTER */
-footer {
-  background-color: #33302C;
-  color: #fff;
-  height: 250px;
-  width: 100%;
-  gap: 40px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+#footer {
+    background-color: #000000; 
+    color: white; 
+    padding-top: 30px;
 }
 
-.divfooter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 150px;
-} 
-
-.logofooter img {
-  width: 150px;
-}
-.partecinza {
-  background-color: #696969;
-  color: #fff;
-  width: 100%;
+#infofooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.entrecontatos {
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
+#marginfooter {
+    margin-bottom: 30px;
+    font-weight: bold;
 }
 
-.entrecontatos a {
-  color: #fff;
-  list-style: none;
-  text-decoration: none;
+#entrecontato {
+    font-size: 20px;
+    text-align: center;
 }
 
-.entrecontatos-separacao {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+#e-mail {
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
 }
 
-.icone-entrecct {
-  width: 30px;
-  height: 30px;
+.iconesfooter {
+    width: 30px;
+    height: 35px;
 }
 
-.siganos p {
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
+.margin-top-footer {
+    margin-top: 10px;
 }
 
-.siganos a {
-  display: flex;
-  font-weight: bold;
-  gap: 5px;
-  padding: 4px 0;
+.siga-nos {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
 }
 
-.siganos a img {
-  width: 30px;
+.info-siga-nos {
+    flex-direction: column;
 }
 
+#instagram {
+    text-decoration: none; 
+    list-style: none; 
+    color: #FFFFFF;
+}
+
+#whatsapp {
+    text-decoration: none; 
+    list-style: none; 
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.direitos-footer {
+    background-color: #696969;
+    max-width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px;
+}
+
+#escrita-direitos {
+    text-align: center;
+    margin: 0px;
+}
+
+/* RESPONSIVIDADE CELULAR */
 @media only screen and (max-width: 600px) {
+  /* NAVBAR */
   .navbar {
     background-color: rgba(0, 0, 0, 0.8);
   }
 
+  /* HOME */
   .home {
     height: 700px;
-    padding: 50px 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
 
   .elementos {
     gap: 18px;
     width: 100%;
-    padding: 0;
     margin: 0;
-    align-items: center !important;
   }
 
   .logo {
-    max-width: 120px;
+    max-width: 200px;
   }
 
   .elementos h1 {
-    font-size: 2rem;
-    line-height: 1.2;
-    width: 100%;
-    word-break: break-word;
+    font-size: 50px;
   }
 
   .texto {
-    font-size: 1rem;
-    gap: 8px;
-    width: 100%;
+    font-size: 25px;
     align-items: center;
     text-align: center;
   }
 
   .texto p {
-    width: 100%;
-    margin: 0;
+    line-height: 10px;
   }
 
   .botao {
-    padding: 12px 25px;
-    font-size: 0.9rem;
+    padding: 10px 25px;
+    font-size: 25px;
     border-radius: 30px;
-    width: auto;
-    text-align: center;
-    white-space: nowrap;
   }
 
   /* Sobre mim */
   .sobremim {
-    flex-direction: column;
     text-align: center;
     height: auto;
     padding: 35px 15px;
@@ -418,37 +373,27 @@ footer {
 
   .txt-sobremim {
     margin-left: 0;
-    gap: 20px;
-    max-width: 100%;
+    gap: 30px;
   }
 
   .textos-do-sobremim {
-    grid-template-columns: 1fr; 
-    font-size: 22px;
+    display: flex;
+    flex-direction: column;
     margin-left: 0;
-    gap: 15px;
   }
 
   .textos-do-sobremim h3 {
-    font-size: 20px;
+    font-size: 25px;
+    color: white;
   }
 
   .textos-do-sobremim h2 {
-    font-size: 1.8rem;
+    font-size: 40px;
   }
 
   .textos-do-sobremim p {
-    font-size: 1.1rem;
-    line-height: 1.4;
-  }
-
-  .textos-do-sobremim.titulo {
-    align-items: center;
-    gap: 0;
-  }
-
-  .ajuste-txt {
-    padding: 5px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   /* BENEFICIOS */
@@ -457,8 +402,8 @@ footer {
   }
 
   .beneficios h2 {
-    padding-top: 40px;
-    font-size: 2.5rem;
+    padding: 40px 0;
+    font-size: 50px;
     text-align: center;
     font-weight: bold;
   }
@@ -466,15 +411,15 @@ footer {
   .cards {
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 
   .cards div {
-    width: 90%;
+    width: 80%;
     height: auto;
     margin: 20px 0;
     padding: 20px 10px;
-    font-size: 1.4rem;
+    font-size: 20px;
+    gap: 10px;
   }
 
   .cards img {
@@ -482,77 +427,62 @@ footer {
   }
 
   .cards h3 {
-    font-size: 1.5rem;
-  }
-
-  .cards p {
-    font-size: 1.2rem;
+    font-size: 25px;
   }
   
   /* PRINCIPAIS CURSOS */
     .cursos {
-    padding: 20px 0;
     height: auto;
-    text-align: center;
   }
 
   .poscardcurso {
     margin: 0;
-    width: 90%;
+    margin: 45px;
+    width: 80%;
   }
 
   .poscardcurso h2 {
-    font-size: 2.5rem;
-    margin: 30px 0;
-    text-align: center;
-    justify-content: center;
+    font-size: 50px;
     font-weight: bold;
   }
 
   .cardcurso {
     flex-direction: column;
     text-align: center;
-    gap: 15px;
   }
 
   .cardcurso h3 {
-    font-size: 1.6rem;
+    font-size: 25px;
   }
 
   .cardcurso p {
-    font-size: 1.2rem;
+    font-size: 20px;
     padding-right: 0;
   }
 
   .cardcurso span {
-    font-size: 1.4rem;
+    font-size: 25px;
   }
 
   /* APH TATICO */
   .aphtatico {
     height: auto;
-    background-size: cover;
     background-position: center;
     padding: 25px 15px;
   }
 
   .aphtatico h2 {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 50px;
     padding: 20px 0;
+    margin: 0;
+    text-align: center;
   }
 
   .aphtatico div {
-    flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 10px 0;
-    font-size: 1.1rem;
-  }
-
-  .aphtatico div p {
-    padding-top: 15px;
-    padding-left: 0;
+    font-size: 18px;
   }
 
   .aphtatico div img {
@@ -563,198 +493,3 @@ footer {
   #torniquete p {
     padding-left: 0;
   }
-
-  /* FOOTER */
-  footer {
-    height: auto;
-    padding-top: 30px;
-    gap: 20px;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .divfooter {
-    margin: 0 20px;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    text-align: center;
-  }
-
-  .logofooter img {
-    width: 120px;
-  }
-
-  .entrecontatos {
-    gap: 8px;
-    font-size: 1rem;
-  }
-
-  .entrecontatos-separacao {
-    justify-content: center;
-  }
-
-  .icone-entrecct {
-    width: 25px;
-    height: 25px;
-  }
-
-  .siganos p {
-    font-size: 18px;
-  }
-
-  .siganos a {
-    justify-content: center;
-    font-size: 1rem;
-  }
-
-  .siganos a img {
-    width: 25px;
-  }
-
-  .partecinza {
-    text-align: center;
-    padding: 10px 0;
-    
-  }
-}
-
-/* RESPONSIVIDADE PARA NOTEBOOK */
-@media only screen and (max-width: 1366px) and (min-width: 1024px) {
-
-  /* HOME */
-  .home {
-    height: 100vh;
-    padding: 20px 40px;
-  }
-
-  .elementos {
-    margin-left: 80px;
-    gap: 25px;
-  }
-
-  .elementos h1 {
-    font-size: 3rem;
-  }
-
-  .texto {
-    font-size: 1.2rem;
-    line-height: normal;
-  }
-
-  /* SOBRE MIM */
-  .sobremim {
-    height: 800px;
-    padding: 50px 60px;
-  }
-
-  .txt-sobremim {
-    max-width: 80%;
-  }
-
-  .textos-do-sobremim {
-    font-size: 1.4rem;
-    gap: 15px;
-  }
-
-  .textos-do-sobremim p {
-    font-size: 1.2rem;
-  }
-
-  /* BENEFÍCIOS */
-  .beneficios {
-    height: 800px;
-    padding-bottom: 40px;
-  }
-
-  .beneficios h2 {
-    font-size: 3rem;
-  }
-
-  .cards {
-    gap: 10px;
-  }
-
-  .cards div {
-    width: 300px;
-    height: auto;
-    margin: 60px 20px;
-    padding: 20px;
-    font-size: 1.4rem;
-  }
-
-  .cards img {
-    width: 120px;
-  }
-
-  /* CURSOS */
-  .cursos {
-    height: auto;
-    padding: 60px 0;
-  }
-
-  .poscardcurso {
-    width: 45%;
-    max-width: 550px;
-    margin-right: 40px;
-    margin-left: auto;
-  }
-
-  .poscardcurso h2 {
-    font-size: 3rem;
-  }
-
-  .cardcurso {
-    padding: 15px;
-  }
-
-  .cardcurso h3 {
-    font-size: 1.6rem;
-  }
-
-  .cardcurso p {
-    font-size: 1.2rem;
-    padding-right: 40px;
-  }
-
-  .cardcurso span {
-    font-size: 1.5rem;
-  }
-
-  /* APH TÁTICO */
-  .aphtatico {
-    height: 800px;
-    padding: 40px 60px;
-  }
-
-  .aphtatico h2 {
-    font-size: 3rem;
-  }
-
-  .aphtatico div {
-    padding: 1px 100px;
-    font-size: 1.2rem;
-  }
-
-  #torniquete p {
-    padding-left: 0;
-  }
-
-  .aphtatico div img {
-    width: 130px;
-  }
-
-  /* FOOTER */
-  footer {
-    height: auto;
-    padding: 40px 0 0 0;
-  }
-
-  .divfooter {
-    margin: 0 60px;
-  }
-
-  .logofooter img {
-    width: 140px;
-  }
-}
